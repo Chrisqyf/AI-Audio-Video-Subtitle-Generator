@@ -4,6 +4,8 @@
 
 # AI 视频/音频字幕生成器
 
+**其他语言版本: [English](README.md), [中文](README_CN.md).**
+
 一个基于 **阿里通义千问 (DashScope)** 语音大模型的 Web 应用，可以自动为您的音视频文件生成 SRT 字幕。
 
 本项目使用 [Streamlit](https://streamlit.io/) 构建，界面简洁，支持一键部署。
@@ -56,4 +58,5 @@ https://ai-audio-video-subtitle-generator-ngwvqihgpqeb7pkrdop4ba.streamlit.app/
 ## 依赖要求
 - Python 3.8+
 - 阿里云 DashScope API Key (百炼控制台获取)
+
 
