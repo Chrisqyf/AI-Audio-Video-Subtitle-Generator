@@ -1,3 +1,7 @@
+<div align="center">
+<img width="2560" height="1270" alt="GHBanner" src="https://github.com/Chrisqyf/AI-Audio-Video-Subtitle-Generator/blob/main/page_en.png" />
+</div>
+
 # AI Audio/Video Subtitle Generator
 
 **Read this in other languages: [English](README.md), [中文](README_CN.md).**
@@ -55,4 +59,5 @@ This project is optimized for [Streamlit Cloud](https://streamlit.io/cloud).
 ## Requirements
 - Python 3.8+
 - Alibaba Cloud DashScope API Key
+
 
