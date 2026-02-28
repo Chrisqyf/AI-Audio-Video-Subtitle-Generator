@@ -1,5 +1,7 @@
 # AI Audio/Video Subtitle Generator
 
+**Read this in other languages: [English](README.md), [中文](README_CN.md).**
+
 A simple web application powered by **Alibaba DashScope (Qwen/Paraformer)** to automatically generate SRT subtitles for your audio and video files.
 
 Built with [Streamlit](https://streamlit.io/).
@@ -9,6 +11,11 @@ Built with [Streamlit](https://streamlit.io/).
 - ⚡ Fast transcription using DashScope's `paraformer-realtime-v1` model.
 - 📝 Auto-generates standard `.srt` format with timestamps.
 - ☁️ Easy deployment on cloud platforms.
+
+## How to use (RECOMMEND)
+Click this domain that created by Streamlit:
+https://ai-audio-video-subtitle-generator-ngwvqihgpqeb7pkrdop4ba.streamlit.app/
+
 
 ## How to Run Locally
 
@@ -48,3 +55,4 @@ This project is optimized for [Streamlit Cloud](https://streamlit.io/cloud).
 ## Requirements
 - Python 3.8+
 - Alibaba Cloud DashScope API Key
+
