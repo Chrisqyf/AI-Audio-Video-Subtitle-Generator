@@ -1,3 +1,7 @@
+<div align="center">
+<img width="2560" height="1270" alt="GHBanner" src="https://github.com/Chrisqyf/AI-Audio-Video-Subtitle-Generator/blob/main/page_cn.png" />
+</div>
+
 # AI 视频/音频字幕生成器
 
 一个基于 **阿里通义千问 (DashScope)** 语音大模型的 Web 应用，可以自动为您的音视频文件生成 SRT 字幕。
@@ -9,6 +13,10 @@
 - ⚡ 极速转写：使用 `paraformer-realtime-v1` 实时流式模型。
 - 📝 标准输出：直接生成带时间戳的 `.srt` 字幕文件。
 - ☁️ 云端部署：支持完全在浏览器中运行（手机/电脑通用）。
+
+## 如何使用 (推荐)
+直接点击下面的域名: 
+https://ai-audio-video-subtitle-generator-ngwvqihgpqeb7pkrdop4ba.streamlit.app/
 
 ## 本地运行指南
 
@@ -48,3 +56,4 @@
 ## 依赖要求
 - Python 3.8+
 - 阿里云 DashScope API Key (百炼控制台获取)
+
