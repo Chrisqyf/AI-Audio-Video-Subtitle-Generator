@@ -57,7 +57,7 @@ def generate_srt(audio_file_path, api_key):
 
         # 2. 调用 DashScope Recognition 服务
         # 使用 paraformer-realtime-v1 模型，支持长音频流式识别，不需要上传文件到 OSS
-        rec = Recognition(model='paraformer-v2', format='wav', sample_rate=16000, callback=None)
+        rec = Recognition(model='paraformer-realtime-v1', format='wav', sample_rate=16000, callback=None)
         
         print(f"Calling Recognition API for {audio_source}...")
         res = rec.call(audio_source)
