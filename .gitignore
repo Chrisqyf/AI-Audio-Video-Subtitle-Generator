@@ -1,5 +1,23 @@
+# Python
 __pycache__/
-*.pyc
-temp_uploaddir/
+*.py[cod]
+*.pyo
+
+# 构建产物 (保留 dist/ 下的 EXE 用于分发，故只忽略中间 build 目录)
+build/
+*.spec.bak
+
+# 运行时生成
+subtitle_key.txt
+*.16k.wav
+*_temp_16k.wav
+*.srt
+
+# 系统/编辑器
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# 环境
 .env
-.streamlit/
